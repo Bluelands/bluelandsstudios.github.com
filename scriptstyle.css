@@ -119,3 +119,61 @@ nav {
 .bannercontent button:hover {
     border: none
 }
+
+.scriptslist img {
+    width: 200px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.scriptslist h1 {
+    margin-left: 15px;
+    float: left;
+    color: white;
+    text-align: left;
+}
+
+.scriptslist p {
+    position:fixed;
+    margin-left: 240px;
+    padding-top: 10px;
+    float: left;
+    color: white;
+    text-align: left;
+}
+
+.scriptslist button {
+    background: transparent;
+    border: 3px solid #008aff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 120px;
+    height: 5vh;
+    margin: 25px auto;
+    margin-top: 92px;
+    margin-left: -240px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.scriptslist span {
+    background-color: #008aff;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.scriptslist button:hover span {
+    width: 100%;
+}
+.scriptslist button:hover {
+    border: none
+}
