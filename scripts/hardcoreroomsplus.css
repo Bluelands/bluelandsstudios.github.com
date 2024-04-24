@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a.logo {
+    float: left;
+    font-size: 89%; /* Adjust font size as needed */
+    font-weight: bold;
+    transition: 0.3s;
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 11px 20px;
+    text-decoration: none;
+}
+.typingtext {
+    display: inline-block;
+}
+.typingtext h1 {
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 5%;
+    overflow: hidden;
+    animation:
+        typing 1s forwards,
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+nav a {
+    float: right;
+    transition: 0.3s;
+    display: block;
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+nav a.logo:hover {
+    color: lightgray;
+    font-size: 99%;
+}
+.banner {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgroundhome.png);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.8);
+}
+nav a.navbutton:hover {
+    transition: 0.3s;
+    background-color: #008aff;
+    font-size: 95%;
+    color: white;
+}
+nav {
+    background-color: rgba(0,0,0,.2);
+}
+.bannercontent {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.bannercontent p {
+    margin: -15px auto;
+    padding: -140px;
+    font-weight: 500;
+    font-size: 200%;
+    line-height: 25px;
+}
+.bannercontent button {
+    border: 2px solid #008aff;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 25px auto;
+    margin-left: 40px;
+    font-weight: 800;
+    margin-right: 40px;
+    padding: 15px 50px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.bannercontent span {
+    background-color: #008aff;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0px;
+    z-index: -1;
+    transition: 0.5s;
+}
+.bannercontent button:hover span {
+    width: 100%;
+}
+.bannercontent button:hover {
+    border: none
+}
+
+.scriptslist img {
+    width: 200px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.scriptslist h1 {
+    margin-left: 15px;
+    float: left;
+    color: white;
+    text-align: left;
+}
+
+.scriptslist p {
+    position:fixed;
+    margin-left: 240px;
+    padding-top: 10px;
+    float: left;
+    color: white;
+    text-align: left;
+}
+
+.scriptslist button {
+    background: transparent;
+    border: 3px solid #008aff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 120px;
+    height: 5vh;
+    margin: 25px auto;
+    margin-top: 92px;
+    margin-left: -240px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.scriptslist span {
+    background-color: #008aff;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.scriptslist button:hover span {
+    width: 100%;
+}
+.scriptslist button:hover {
+    border: none
+}
